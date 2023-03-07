@@ -1,5 +1,6 @@
-# Project Title
-A GUI version of unbeatable Tic-Tac-Toe game in java
+# Tic-Tac-Toe Game
+This is a simple implementation of the Tic-Tac-Toe game in Java, using the command line interface. The game allows two players to play against each other, taking turns to place their marks on the board until one of the players wins or the game ends in a tie.
+
 
 ### Running the project
 
