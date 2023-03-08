@@ -80,12 +80,7 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
             }
         });
 
-        GetSourceCode.setText("Download Source Code From Github");
-        GetSourceCode.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                GetSourceCodeActionPerformed(evt);
-            }
-        });
+        
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

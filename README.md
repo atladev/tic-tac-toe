@@ -8,11 +8,8 @@ After installing Java, you can download or clone this repository to your compute
 
 ### Running the project
 
-Just Download the Jar file from [here](https://github.com/Saurabh1999/Tic-Tac-Toe/raw/master/executable%20jar/Tic_Tac_Toe.jar)
-and run it by executing the follwing command
-```
-java -jar Tic_Tac_Toe.jar
-```
+Just Download and run the Jar file
+
 ![main menu](images/main_menu.png) 
 ![game](images/game.png)|
 ![game2](images/game1.png)
