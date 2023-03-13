@@ -55,9 +55,9 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        play_with_computer = new javax.swing.JButton();
-        play_with_human = new javax.swing.JButton();
-        GetSourceCode = new javax.swing.JButton();
+        play_with_computer = new javax.swing.JButton(); //play with computer
+        play_with_human = new javax.swing.JButton(); //play with other person
+        GetSourceCode = new javax.swing.JButton(); 
         welcome = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -66,7 +66,7 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(240, 242, 241));
 
-        play_with_computer.setText("Play with computer");
+        play_with_computer.setText("Play with computer"); //
         play_with_computer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 play_with_computerActionPerformed(evt);
