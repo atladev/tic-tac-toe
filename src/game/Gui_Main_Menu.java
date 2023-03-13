@@ -34,15 +34,15 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
      */
     public Gui_Main_Menu(game_engine engine,Gui_game_play GamePlay) {
         initComponents();
-        
+
         firsttime = true;
         this.engine = engine;
         this.GamePlay = GamePlay;
         this.IsTwoPlayerGame = false;
         setExtendedState(JFrame.MAXIMIZED_BOTH);
-        
-         
-        
+
+
+
     }
 
     /**
@@ -55,9 +55,9 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        play_with_computer = new javax.swing.JButton(); //play with computer
-        play_with_human = new javax.swing.JButton(); //play with other person
-        GetSourceCode = new javax.swing.JButton(); 
+        play_with_computer = new javax.swing.JButton();
+        play_with_human = new javax.swing.JButton();
+        GetSourceCode = new javax.swing.JButton();
         welcome = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -66,7 +66,7 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(240, 242, 241));
 
-        play_with_computer.setText("Play with computer"); //
+        play_with_computer.setText("Play with computer");
         play_with_computer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 play_with_computerActionPerformed(evt);
@@ -80,7 +80,12 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
             }
         });
 
-        
+        GetSourceCode.setText("Download Source Code From Github");
+        GetSourceCode.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                GetSourceCodeActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -139,20 +144,20 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
 
     private void play_with_computerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_play_with_computerActionPerformed
         // TODO add your handling code here:
-        
+
         SoundEffect.CLICK.play();
         engine.player1.set_name("COMPUTER");
         setVisible(false);
         GamePlay.setVisible(true);
         IsTwoPlayerGame = false;
-        
+
         if(firsttime){
             Component frame = null;
             JOptionPane.showMessageDialog(frame, "1.Click on Start Game Button to play the Game\n" 
                                            + "2.Current Turn will be displyed at the top of the game window\n");
             firsttime = false;
         }
-        
+
     }//GEN-LAST:event_play_with_computerActionPerformed
 
     private void play_with_humanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_play_with_humanActionPerformed
@@ -187,9 +192,9 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
 
     public boolean get_IsTwoPlayerGame(){
         return IsTwoPlayerGame;
-        
+
     }
-  
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton GetSourceCode;
     private javax.swing.JPanel jPanel1;
