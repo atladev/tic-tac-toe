@@ -111,7 +111,7 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
                 .addContainerGap(112, Short.MAX_VALUE))
         );
 
-        welcome.setFont(new java.awt.Font("Ubuntu", 1, 36)); // NOI18N
+        welcome.setFont(new java.awt.Font("Ubuntu", 1, 50)); // NOI18N
         welcome.setForeground(new java.awt.Color(0, 153, 51));
         welcome.setText("Welcome to TIC TAC TOE");
         welcome.setToolTipText("");
