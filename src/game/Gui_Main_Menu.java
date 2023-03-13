@@ -112,8 +112,8 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
         );
 
         welcome.setFont(new java.awt.Font("Ubuntu", 1, 36)); // NOI18N
-        welcome.setForeground(new java.awt.Color(233, 132, 132));
-        welcome.setText("Welcome to Unbeatable TIC TAC TOE ");
+        welcome.setForeground(new java.awt.Color(0, 153, 51));
+        welcome.setText("Welcome to TIC TAC TOE");
         welcome.setToolTipText("");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -181,7 +181,7 @@ public class Gui_Main_Menu extends javax.swing.JFrame {
         if(Desktop.isDesktopSupported())
         {
             try {
-                Desktop.getDesktop().browse(new URI("https://www.google.com"));
+                Desktop.getDesktop().browse(new URI("https://github.com/atladev"));
             } catch (IOException ex) {
                 Logger.getLogger(Gui_Main_Menu.class.getName()).log(Level.SEVERE, null, ex);
             } catch (URISyntaxException ex) {
