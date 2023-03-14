@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package game;
 
 import game.type.pieces;
@@ -15,11 +10,6 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
-/**
- *
- * @author advance
- * github profile : https://github.com/Saurabh1999
- */
 public class Gui_game_play extends javax.swing.JFrame {
 
     /**
