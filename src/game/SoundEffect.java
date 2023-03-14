@@ -1,8 +1,3 @@
-
-/**
- * @author advance
- * github profile : https://github.com/Saurabh1999
- */
 package game;
 
 
