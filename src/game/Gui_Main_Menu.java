@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package game;
 
 import java.awt.Component;
@@ -15,11 +10,6 @@ import java.util.logging.Logger;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author advance
- * github profile : https://github.com/Saurabh1999
- */
 public class Gui_Main_Menu extends javax.swing.JFrame {
 
     private game_engine engine;
