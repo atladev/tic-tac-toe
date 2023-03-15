@@ -10,10 +10,10 @@ After installing Java, you can download or clone this repository to your compute
 
 Just Download and run the Jar file
 
-![main menu](images/main_menu.png) 
+<!-- ![main menu](images/main_menu.png) 
 ![game](images/game.png)|
 ![game2](images/game1.png)
-![game3](images/game3.png)
+![game3](images/game3.png) -->
 
 ## Contributing
 If you find any bugs or issues with the game, please open an issue on the GitHub repository. Pull requests are also welcome if you want to contribute to the code.
