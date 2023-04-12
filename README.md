@@ -22,4 +22,4 @@ If you find any bugs or issues with the game, please open an issue on the GitHub
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Credits
-This game was developed by AtlaDev...
+This game was developed by AtlaDev.
